@@ -5,7 +5,7 @@
 ; (reverse (list 1 4 9 16 25))
 ; (25 16 9 4 1)
 
-(require "../common.rkt")
+(require "common.rkt")
 
 (define (reverse l)
   (define (reverse0 l acc)
